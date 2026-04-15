@@ -155,3 +155,58 @@ button:active {
     height: auto;
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+#attendance {
+  background-color: #fefefe;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+section.card {
+  margin: 1rem 0;
+}
+
+input[type="text"] {
+  border: 1px solid #999;
+}
+
+h2, h3 {
+  text-decoration: underline;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+form > fieldset {
+  background-color: white;
+}
+
+h2 + p {
+  color: orange;
+}
+
+h2 ~ p {
+  line-height: 1.5;
+}
+
+section:has(img) {
+  border-color: blue;
+}
+
+nav {
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
