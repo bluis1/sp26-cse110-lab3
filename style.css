@@ -226,3 +226,56 @@ nav {
   gap: 10px;
   justify-items: center;
 }
+
+body {
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+footer {
+  position: relative;
+}
+
+main {
+  margin: auto;
+}
+
+label {
+  display: inline-block;
+  width: 5cm;
+}
+
+audio {
+  width: 250px;
+}
+
+video {
+  border: 0.2in solid #bbb;
+}
+
+.card {
+  margin: 10px 20px 10px 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 2px solid #ccc;
+}
+
+summary {
+  color: color(display-p3 0.2 0.4 0.8);
+}
+
+.primary-btn {
+  background-color: hsla(220, 70%, 55%, 0.9);
+  display: inline-block;
+}
+
+span {
+  color: green;
+}
