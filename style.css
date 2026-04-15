@@ -27,6 +27,7 @@ main {
   min-width: 300px;
   margin: auto;
   padding: 20px;
+  padding-top: 20px;
   border: 2px solid var(--border-color, #cfcfcf);
   border-radius: 10px;
 }
@@ -235,6 +236,8 @@ body {
 header {
   position: sticky;
   top: 0;
+  z-index: 1000;
+  background-color: #eef3f7;
 }
 
 footer {
@@ -278,4 +281,12 @@ summary {
 
 span {
   color: green;
+}
+
+.primary-btn {
+  border: 3px solid navy;
+}
+
+summary {
+  display: inline;
 }
