@@ -210,3 +210,19 @@ nav {
     margin-right: 10px;
   }
 }
+
+/* flexbox layout */
+.top-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* grid layout */
+#attendance ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
