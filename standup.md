@@ -1,7 +1,7 @@
 # Daily Standup Notes
 
 - **Name:** Benedict Luis
-- **Date:** April 15, 2026
+- **Date:** April 19, 2026
 - **Lab:** CSE 110 Lab 3
 
 ## What I completed
